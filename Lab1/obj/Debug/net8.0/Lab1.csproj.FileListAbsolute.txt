@@ -287,3 +287,7 @@ D:\DOCS\BGUIR\4 СЕССИЯ\ВЕБТЕХНОЛОГИИ\projects\Lab1\Lab1Sol\La
 D:\DOCS\BGUIR\4 СЕССИЯ\ВЕБТЕХНОЛОГИИ\projects\Lab1\Lab1Sol\Lab1\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 D:\DOCS\BGUIR\4 СЕССИЯ\ВЕБТЕХНОЛОГИИ\projects\Lab1\Lab1Sol\Lab1\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\DOCS\BGUIR\4 СЕССИЯ\ВЕБТЕХНОЛОГИИ\projects\Lab1\Lab1Sol\Lab1\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\DOCS\BGUIR\4 СЕССИЯ\ВЕБТЕХНОЛОГИИ\projects\Lab1\Lab1Sol\Lab1\bin\Debug\net8.0\Microsoft.VisualStudio.LiveShare.dll
+D:\DOCS\BGUIR\4 СЕССИЯ\ВЕБТЕХНОЛОГИИ\projects\Lab1\Lab1Sol\Lab1\obj\Debug\net8.0\Lab1.sourcelink.json
+D:\DOCS\BGUIR\4 СЕССИЯ\ВЕБТЕХНОЛОГИИ\projects\Lab1\Lab1Sol\Lab1\bin\Debug\net8.0\Lab1.Domain.dll
+D:\DOCS\BGUIR\4 СЕССИЯ\ВЕБТЕХНОЛОГИИ\projects\Lab1\Lab1Sol\Lab1\bin\Debug\net8.0\Lab1.Domain.pdb

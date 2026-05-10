@@ -9,7 +9,7 @@ namespace Lab1.Controllers
     public class HomeController : Controller
     {
 
-        [Authorize(Policy ="admin")]
+        //[Authorize(Policy ="admin")]
 
         public IActionResult Index()
         {

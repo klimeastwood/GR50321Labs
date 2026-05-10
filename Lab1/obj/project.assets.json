@@ -2963,6 +2963,16 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "Lab1.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Lab1.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lab1.Domain.dll": {}
+        }
       }
     }
   },
@@ -8126,10 +8136,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Lab1.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Lab1.Domain/Lab1.Domain.csproj",
+      "msbuildProject": "../Lab1.Domain/Lab1.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Lab1.Domain >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 8.0.25",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.25",
       "Microsoft.AspNetCore.Identity.UI >= 8.0.25",
@@ -8170,7 +8186,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\DOCS\\BGUIR\\4 СЕССИЯ\\ВЕБТЕХНОЛОГИИ\\projects\\Lab1\\Lab1Sol\\Lab1.Domain\\Lab1.Domain.csproj": {
+              "projectPath": "D:\\DOCS\\BGUIR\\4 СЕССИЯ\\ВЕБТЕХНОЛОГИИ\\projects\\Lab1\\Lab1Sol\\Lab1.Domain\\Lab1.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

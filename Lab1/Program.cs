@@ -1,4 +1,5 @@
 using Lab1.Data;
+using Lab1.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
@@ -30,6 +31,16 @@ builder.Services.AddAuthorization(opt =>
 
 
 builder.Services.AddTransient<IEmailSender, NoOpEmailSender>();
+
+builder.Services.AddTransient<IProductService, MemoryProductService>();
+
+builder.Services.AddTransient<ICategoryService, MemoryCategoryService>();
+
+//builder.Services.AddScoped<IProductService, MemoryProductService>();
+
+//builder.Services.AddScoped<ICategoryService, MemoryCategoryService>();
+
+
 
 
 builder.Services.AddControllersWithViews();

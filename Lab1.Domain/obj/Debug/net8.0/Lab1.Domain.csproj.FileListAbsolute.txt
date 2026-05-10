@@ -1,0 +1,12 @@
+D:\DOCS\BGUIR\4 СЕССИЯ\ВЕБТЕХНОЛОГИИ\projects\Lab1\Lab1Sol\Lab1.Domain\bin\Debug\net8.0\Lab1.Domain.deps.json
+D:\DOCS\BGUIR\4 СЕССИЯ\ВЕБТЕХНОЛОГИИ\projects\Lab1\Lab1Sol\Lab1.Domain\bin\Debug\net8.0\Lab1.Domain.dll
+D:\DOCS\BGUIR\4 СЕССИЯ\ВЕБТЕХНОЛОГИИ\projects\Lab1\Lab1Sol\Lab1.Domain\bin\Debug\net8.0\Lab1.Domain.pdb
+D:\DOCS\BGUIR\4 СЕССИЯ\ВЕБТЕХНОЛОГИИ\projects\Lab1\Lab1Sol\Lab1.Domain\obj\Debug\net8.0\Lab1.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\DOCS\BGUIR\4 СЕССИЯ\ВЕБТЕХНОЛОГИИ\projects\Lab1\Lab1Sol\Lab1.Domain\obj\Debug\net8.0\Lab1.Domain.AssemblyInfoInputs.cache
+D:\DOCS\BGUIR\4 СЕССИЯ\ВЕБТЕХНОЛОГИИ\projects\Lab1\Lab1Sol\Lab1.Domain\obj\Debug\net8.0\Lab1.Domain.AssemblyInfo.cs
+D:\DOCS\BGUIR\4 СЕССИЯ\ВЕБТЕХНОЛОГИИ\projects\Lab1\Lab1Sol\Lab1.Domain\obj\Debug\net8.0\Lab1.Domain.csproj.CoreCompileInputs.cache
+D:\DOCS\BGUIR\4 СЕССИЯ\ВЕБТЕХНОЛОГИИ\projects\Lab1\Lab1Sol\Lab1.Domain\obj\Debug\net8.0\Lab1.Domain.sourcelink.json
+D:\DOCS\BGUIR\4 СЕССИЯ\ВЕБТЕХНОЛОГИИ\projects\Lab1\Lab1Sol\Lab1.Domain\obj\Debug\net8.0\Lab1.Domain.dll
+D:\DOCS\BGUIR\4 СЕССИЯ\ВЕБТЕХНОЛОГИИ\projects\Lab1\Lab1Sol\Lab1.Domain\obj\Debug\net8.0\refint\Lab1.Domain.dll
+D:\DOCS\BGUIR\4 СЕССИЯ\ВЕБТЕХНОЛОГИИ\projects\Lab1\Lab1Sol\Lab1.Domain\obj\Debug\net8.0\Lab1.Domain.pdb
+D:\DOCS\BGUIR\4 СЕССИЯ\ВЕБТЕХНОЛОГИИ\projects\Lab1\Lab1Sol\Lab1.Domain\obj\Debug\net8.0\ref\Lab1.Domain.dll

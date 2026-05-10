@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\DOCS\\BGUIR\\4 \u0421\u0415\u0421\u0421\u0418\u042F\\\u0412\u0415\u0411\u0422\u0415\u0425\u041D\u041E\u041B\u041E\u0413\u0418\u0418\\projects\\Lab1\\Lab1Sol\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{36970001-EC9E-4C65-91A7-7CC28652F1AF}|Lab1\\Lab1.csproj|d:\\docs\\bguir\\4 \u0441\u0435\u0441\u0441\u0438\u044F\\\u0432\u0435\u0431\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\projects\\lab1\\lab1sol\\lab1\\services\\memoryproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36970001-EC9E-4C65-91A7-7CC28652F1AF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\services\\memoryproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36970001-EC9E-4C65-91A7-7CC28652F1AF}|Lab1\\Lab1.csproj|d:\\docs\\bguir\\4 \u0441\u0435\u0441\u0441\u0438\u044F\\\u0432\u0435\u0431\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\projects\\lab1\\lab1sol\\lab1\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36970001-EC9E-4C65-91A7-7CC28652F1AF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36970001-EC9E-4C65-91A7-7CC28652F1AF}|Lab1\\Lab1.csproj|d:\\docs\\bguir\\4 \u0441\u0435\u0441\u0441\u0438\u044F\\\u0432\u0435\u0431\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\projects\\lab1\\lab1sol\\lab1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36970001-EC9E-4C65-91A7-7CC28652F1AF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36970001-EC9E-4C65-91A7-7CC28652F1AF}|Lab1\\Lab1.csproj|d:\\docs\\bguir\\4 \u0441\u0435\u0441\u0441\u0438\u044F\\\u0432\u0435\u0431\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\projects\\lab1\\lab1sol\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36970001-EC9E-4C65-91A7-7CC28652F1AF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36970001-EC9E-4C65-91A7-7CC28652F1AF}|Lab1\\Lab1.csproj|d:\\docs\\bguir\\4 \u0441\u0435\u0441\u0441\u0438\u044F\\\u0432\u0435\u0431\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\projects\\lab1\\lab1sol\\lab1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36970001-EC9E-4C65-91A7-7CC28652F1AF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36970001-EC9E-4C65-91A7-7CC28652F1AF}|Lab1\\Lab1.csproj|d:\\docs\\bguir\\4 \u0441\u0435\u0441\u0441\u0438\u044F\\\u0432\u0435\u0431\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\projects\\lab1\\lab1sol\\lab1\\services\\memorycategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36970001-EC9E-4C65-91A7-7CC28652F1AF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\services\\memorycategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36970001-EC9E-4C65-91A7-7CC28652F1AF}|Lab1\\Lab1.csproj|d:\\docs\\bguir\\4 \u0441\u0435\u0441\u0441\u0438\u044F\\\u0432\u0435\u0431\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\projects\\lab1\\lab1sol\\lab1\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{36970001-EC9E-4C65-91A7-7CC28652F1AF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36970001-EC9E-4C65-91A7-7CC28652F1AF}|Lab1\\Lab1.csproj|d:\\docs\\bguir\\4 \u0441\u0435\u0441\u0441\u0438\u044F\\\u0432\u0435\u0431\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\projects\\lab1\\lab1sol\\lab1\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36970001-EC9E-4C65-91A7-7CC28652F1AF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36970001-EC9E-4C65-91A7-7CC28652F1AF}|Lab1\\Lab1.csproj|d:\\docs\\bguir\\4 \u0441\u0435\u0441\u0441\u0438\u044F\\\u0432\u0435\u0431\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\projects\\lab1\\lab1sol\\lab1\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36970001-EC9E-4C65-91A7-7CC28652F1AF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,32 +34,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\DOCS\\BGUIR\\4 \u0421\u0415\u0421\u0421\u0418\u042F\\\u0412\u0415\u0411\u0422\u0415\u0425\u041D\u041E\u041B\u041E\u0413\u0418\u0418\\projects\\Lab1\\Lab1Sol\\Lab1\\Program.cs",
-              "RelativeDocumentMoniker": "Lab1\\Program.cs",
-              "ToolTip": "D:\\DOCS\\BGUIR\\4 \u0421\u0415\u0421\u0421\u0418\u042F\\\u0412\u0415\u0411\u0422\u0415\u0425\u041D\u041E\u041B\u041E\u0413\u0418\u0418\\projects\\Lab1\\Lab1Sol\\Lab1\\Program.cs",
-              "RelativeToolTip": "Lab1\\Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADsAAAALAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\DOCS\\BGUIR\\4 \u0421\u0415\u0421\u0421\u0418\u042F\\\u0412\u0415\u0411\u0422\u0415\u0425\u041D\u041E\u041B\u041E\u0413\u0418\u0418\\projects\\Lab1\\Lab1Sol\\Lab1\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Lab1\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\DOCS\\BGUIR\\4 \u0421\u0415\u0421\u0421\u0418\u042F\\\u0412\u0415\u0411\u0422\u0415\u0425\u041D\u041E\u041B\u041E\u0413\u0418\u0418\\projects\\Lab1\\Lab1Sol\\Lab1\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Lab1\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T10:51:12.437Z",
+              "WhenOpened": "2026-05-10T17:57:00.476Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\DOCS\\BGUIR\\4 \u0421\u0415\u0421\u0421\u0418\u042F\\\u0412\u0415\u0411\u0422\u0415\u0425\u041D\u041E\u041B\u041E\u0413\u0418\u0418\\projects\\Lab1\\Lab1Sol\\Lab1\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Lab1\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\DOCS\\BGUIR\\4 \u0421\u0415\u0421\u0421\u0418\u042F\\\u0412\u0415\u0411\u0422\u0415\u0425\u041D\u041E\u041B\u041E\u0413\u0418\u0418\\projects\\Lab1\\Lab1Sol\\Lab1\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Lab1\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DOCS\\BGUIR\\4 \u0421\u0415\u0421\u0421\u0418\u042F\\\u0412\u0415\u0411\u0422\u0415\u0425\u041D\u041E\u041B\u041E\u0413\u0418\u0418\\projects\\Lab1\\Lab1Sol\\Lab1\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab1\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\DOCS\\BGUIR\\4 \u0421\u0415\u0421\u0421\u0418\u042F\\\u0412\u0415\u0411\u0422\u0415\u0425\u041D\u041E\u041B\u041E\u0413\u0418\u0418\\projects\\Lab1\\Lab1Sol\\Lab1\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Lab1\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAswJIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-10T14:55:22.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\DOCS\\BGUIR\\4 \u0421\u0415\u0421\u0421\u0418\u042F\\\u0412\u0415\u0411\u0422\u0415\u0425\u041D\u041E\u041B\u041E\u0413\u0418\u0418\\projects\\Lab1\\Lab1Sol\\Lab1\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Lab1\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\DOCS\\BGUIR\\4 \u0421\u0415\u0421\u0421\u0418\u042F\\\u0412\u0415\u0411\u0422\u0415\u0425\u041D\u041E\u041B\u041E\u0413\u0418\u0418\\projects\\Lab1\\Lab1Sol\\Lab1\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Lab1\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwBwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T10:48:13.391Z",
+              "WhenOpened": "2026-05-10T14:48:26.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MemoryProductService.cs",
+              "DocumentMoniker": "D:\\DOCS\\BGUIR\\4 \u0421\u0415\u0421\u0421\u0418\u042F\\\u0412\u0415\u0411\u0422\u0415\u0425\u041D\u041E\u041B\u041E\u0413\u0418\u0418\\projects\\Lab1\\Lab1Sol\\Lab1\\Services\\MemoryProductService.cs",
+              "RelativeDocumentMoniker": "Lab1\\Services\\MemoryProductService.cs",
+              "ToolTip": "D:\\DOCS\\BGUIR\\4 \u0421\u0415\u0421\u0421\u0418\u042F\\\u0412\u0415\u0411\u0422\u0415\u0425\u041D\u041E\u041B\u041E\u0413\u0418\u0418\\projects\\Lab1\\Lab1Sol\\Lab1\\Services\\MemoryProductService.cs",
+              "RelativeToolTip": "Lab1\\Services\\MemoryProductService.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAADwv3YAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T13:46:15.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MemoryCategoryService.cs",
+              "DocumentMoniker": "D:\\DOCS\\BGUIR\\4 \u0421\u0415\u0421\u0421\u0418\u042F\\\u0412\u0415\u0411\u0422\u0415\u0425\u041D\u041E\u041B\u041E\u0413\u0418\u0418\\projects\\Lab1\\Lab1Sol\\Lab1\\Services\\MemoryCategoryService.cs",
+              "RelativeDocumentMoniker": "Lab1\\Services\\MemoryCategoryService.cs",
+              "ToolTip": "D:\\DOCS\\BGUIR\\4 \u0421\u0415\u0421\u0421\u0418\u042F\\\u0412\u0415\u0411\u0422\u0415\u0425\u041D\u041E\u041B\u041E\u0413\u0418\u0418\\projects\\Lab1\\Lab1Sol\\Lab1\\Services\\MemoryCategoryService.cs",
+              "RelativeToolTip": "Lab1\\Services\\MemoryCategoryService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T13:38:44.337Z",
               "EditorCaption": ""
             },
             {
@@ -60,28 +107,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "D:\\DOCS\\BGUIR\\4 \u0421\u0415\u0421\u0421\u0418\u042F\\\u0412\u0415\u0411\u0422\u0415\u0425\u041D\u041E\u041B\u041E\u0413\u0418\u0418\\projects\\Lab1\\Lab1Sol\\Lab1\\ScaffoldingReadMe.txt",
-              "RelativeDocumentMoniker": "Lab1\\ScaffoldingReadMe.txt",
-              "ToolTip": "D:\\DOCS\\BGUIR\\4 \u0421\u0415\u0421\u0421\u0418\u042F\\\u0412\u0415\u0411\u0422\u0415\u0425\u041D\u041E\u041B\u041E\u0413\u0418\u0418\\projects\\Lab1\\Lab1Sol\\Lab1\\ScaffoldingReadMe.txt",
-              "RelativeToolTip": "Lab1\\ScaffoldingReadMe.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-05-10T10:46:44.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "D:\\DOCS\\BGUIR\\4 \u0421\u0415\u0421\u0421\u0418\u042F\\\u0412\u0415\u0411\u0422\u0415\u0425\u041D\u041E\u041B\u041E\u0413\u0418\u0418\\projects\\Lab1\\Lab1Sol\\Lab1\\Data\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "Lab1\\Data\\DbInitializer.cs",
-              "ToolTip": "D:\\DOCS\\BGUIR\\4 \u0421\u0415\u0421\u0421\u0418\u042F\\\u0412\u0415\u0411\u0422\u0415\u0425\u041D\u041E\u041B\u041E\u0413\u0418\u0418\\projects\\Lab1\\Lab1Sol\\Lab1\\Data\\DbInitializer.cs",
-              "RelativeToolTip": "Lab1\\Data\\DbInitializer.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBMAAAAYAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DOCS\\BGUIR\\4 \u0421\u0415\u0421\u0421\u0418\u042F\\\u0412\u0415\u0411\u0422\u0415\u0425\u041D\u041E\u041B\u041E\u0413\u0418\u0418\\projects\\Lab1\\Lab1Sol\\Lab1\\Program.cs",
+              "RelativeDocumentMoniker": "Lab1\\Program.cs",
+              "ToolTip": "D:\\DOCS\\BGUIR\\4 \u0421\u0415\u0421\u0421\u0418\u042F\\\u0412\u0415\u0411\u0422\u0415\u0425\u041D\u041E\u041B\u041E\u0413\u0418\u0418\\projects\\Lab1\\Lab1Sol\\Lab1\\Program.cs",
+              "RelativeToolTip": "Lab1\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswEwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T10:23:43.988Z",
+              "WhenOpened": "2026-05-10T10:51:12.437Z",
               "EditorCaption": ""
             }
           ]

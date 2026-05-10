@@ -1,7 +1,147 @@
-﻿
+﻿@model IEnumerable<Lab1.Domain.Entities.Dish>
+
 @{
     ViewData["Title"] = "Index";
+
+    var request = ViewContext.HttpContext.Request;
+    var returnUrl = request.Path + request.QueryString.ToUriComponent();
+
+    var categories = ViewData["categories"] as IEnumerable<Lab1.Domain.Entities.Category>;
 }
 
-<h1>Products</h1>
+<h2 class="m-3">Блюда дня</h2>
+<div class="row">
+    <!-- выбор категории -->
+    <div class="col-2 border-2">
+        <ul class="nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"
+                   data-bs-toggle="dropdown"
+                   href="#"
+                   role="button"
+                   aria-expanded="false">
+                    @ViewData["currentCategory"]
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="dropdown-item"
+                           asp-controller="Product"
+                           asp-action="Index"
+                           asp-route-category="@null">Все</a>
+                    </li>
+                    @if (categories != null)
+                    {
+                        foreach (var item in categories)
+                        {
+                            <li>
+                                <a class="dropdown-item"
+                                   asp-controller="Product"
+                                   asp-action="Index"
+                                   asp-route-category="@item.NormalizedName">
+                                    @item.Name
+                                </a>
+                            </li>
+                        }
+                    }
+                </ul>
+            </li>
+        </ul>
+    </div><!-- выбор категории -->
+    @if (Model != null)
+    {
+        <div class="card-group">
+            @foreach (var item in Model)
+            {
+                <div class="col-4 p-4">
+                    <div class="card border-dark m-2">
+                        @if (!string.IsNullOrEmpty(item.Image))
+                        {
+                            <img class="card-img-top" src="@item.Image" alt="No image available" />
+                        }
+                        else
+                        {
+                            <div class="card-img-top bg-secondary d-flex align-items-center justify-content-center" style="height: 200px;">
+                                <span class="text-white">Нет изображения</span>
+                            </div>
+                        }
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Name</h5>
+                            <p class="card-text">@item.Description</p>
+                            <h5><span class="badge bg-secondary">@item.Calories калорий</span></h5>
+                        </div><!-- card-body -->
+                        <div class="card-footer text-center">
+                            <a class="btn btn-outline-primary"
+                               asp-action="Add"
+                               asp-controller="Cart"
+                               asp-route-id="@item.Id"
+                               asp-route-returnurl="@returnUrl">
+                                Add to cart <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </div><!-- card-footer -->
+                    </div><!-- card -->
+                </div>
+        
+                <!-- col -->
+            }
+        </div>
+    }
+</div>
 
+<h2 class="text-warning">@ViewData["Error"]</h2>
+
+@* <table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Calories)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Calories)
+            </td>
+            <td>
+                <img src="@item.Image" />
+              
+            </td>
+            <td>
+                
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+ *@

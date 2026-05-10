@@ -5,5 +5,6 @@ namespace Lab1.Data
 {
     public class ApplicationUser : IdentityUser
     {
+        public byte[] Avatar { get; set; }
     }
 }
