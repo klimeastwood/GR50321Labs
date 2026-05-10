@@ -1,0 +1,158 @@
+﻿
+
+        Содержимое страницы
+
+        <form method="post" action="#">
+            <input type="text" name="input1" /> </br>
+            <input type="checkbox" name="cb"/> <label>Ok</label>
+            <br/>
+              <input type="submit" value="Send"/>
+        </form>
+    
+
+
+@* Указываем, что используем модель IndexViewModel *@
+@model Lab1.Models.IndexViewModel
+
+@{
+    // Получаем данные из ViewData
+    var labTitle = ViewData["LabTitle"] as string;
+}
+
+@* Пункт c: Заголовок из ViewData *@
+<h1>@labTitle</h1>
+
+@* Пункт a: Нумерованный список через цикл for *@
+<h2>Список</h2>
+<ol type="A">
+    @for (int i = 0; i <= 4; i++)
+    {
+        <li>элемент @i списка</li>
+    }
+</ol>
+
+<hr />
+
+@* Пункт d: Форма с select, использующая модель и asp-items *@
+<h2>Форма</h2>
+
+<form method="post" asp-action="Index">
+    <div style="margin-bottom: 10px">
+  
+
+        @* Используем tag-helper asp-items для привязки SelectList *@
+        <select asp-for="SelectedItemId"
+                asp-items="@Model.MySelectList"
+                class="form-control"
+                style="width: 300px;">
+        </select>
+
+        
+    </div>
+</form>
+
+@* Отображение результата отправки *@
+@if (ViewData["SelectedMessage"] != null)
+{
+    <div style="margin-top: 20px; padding: 10px; background-color: #d4edda; border: 1px solid #c3e6cb; border-radius: 5px;">
+        <strong>Результат:</strong> @ViewData["SelectedMessage"]
+    </div>
+}
+
+
+
+<div class="row mb-3">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Логин</label>
+    <div class="col-sm-10">
+        <input name="log" type="email" class="form-control" id="inputEmail3" placeholder="Введите имя">
+    </div>
+</div>
+<div class="row mb-3">
+    <label for="inputPassword3" class="col-sm-2 col-form-label">Пароль</label>
+    <div class="col-sm-10">
+        <input name="pass" type="password" class="form-control" id="inputPassword3" placeholder="Введите пароль">
+    </div>
+</div>
+
+<button type="submit" class="btn btn-primary">Отправить</button>
+
+
+
+
+
+
+
+        @* <h1>Лабораторная работа 1</h1>
+        <h2>Список</h2>
+
+        <!-- Упорядоченный список с нумерацией заглавными буквами -->
+        <ol type="A">
+        <li>элемент 0 списка</li>
+        <li>элемент 1 списка</li>
+        <li>элемент 2 списка</li>
+        <li>элемент 3 списка</li>
+        <li>элемент 4 списка</li>
+        </ol>
+
+
+
+            <h2>Форма</h2>
+            <fieldset class="row mb-3">
+                <legend class="col-form-label col-sm-6 pt-0"></legend>
+               
+                <div class="form-check" style="margin-left: 240px;">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Чек-бокс 1
+                    </label>
+                </div>
+                <div class="form-check" style="margin-left: 240px;">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                       Чек-бокс 2
+                    </label>
+                </div>
+
+
+                <div class="col-sm-8">
+                    <div class="form-check form-check-inline" style="margin-left: 230px;">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Радио-1</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Радио-2</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">Радио-3</label>
+                    </div>
+                </div>
+            </fieldset>
+
+
+            <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Логин</label>
+                <div class="col-sm-10">
+                    <input name ="log" type="email" class="form-control" id="inputEmail3" placeholder="Введите имя">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Пароль</label>
+                <div class="col-sm-10">
+                    <input name="pass" type="password" class="form-control" id="inputPassword3" placeholder="Введите пароль">
+                </div>
+            </div>
+                           
+            <button type="submit" class="btn btn-primary" >Отправить</button>
+
+    </main>
+
+
+   
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html> *@
